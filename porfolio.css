@@ -1,0 +1,187 @@
+*{
+    /* border: solid black 1px; */
+    margin: 0;
+    padding: 0;
+    
+}
+.name{
+    font-weight: 600;
+    font-size: xx-large;
+}
+.lll:hover:hover{
+    animation: move 1s;
+    filter: grayscale(70%);
+}
+@keyframes move {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.06);
+    }  
+}
+.fff:hover{
+    animation: move 1s;
+    filter: invert(70%);
+}
+@keyframes move {
+    0%{
+        transform: scale(1);
+        
+    }
+    50%{
+        transform: scale(1.06);
+    
+    }  
+
+}
+#img:hover{
+    animation: move 1s;
+    filter: invert(70%);
+}
+@keyframes move {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.06);
+    }  
+}
+
+.bodyone{
+    background-color: rgb(25,20,42);
+    height: 615px;   
+}
+.navbar{
+    background-color: rgb(247,246,244);
+}
+
+.head{
+    position: relative;
+    left: 50px;
+    font-weight: 600;
+    color: #384a62;
+}
+#ooo{
+    margin-right: 40px;
+    color: #384a62;
+}
+
+.myimage{
+    width: 590px;
+    position: relative;
+    bottom: 90px;
+    
+}
+.resume{
+    background-color: rgb(25,20,42);
+}
+.experience{
+    background-color: rgb(42,35,68);
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: thin dashed whitesmoke;
+    background-color: transparent;
+    align-self: center;
+    align-content: f;
+}
+.view{
+    
+}
+.awards{
+    border: thin dashed red ;
+    border-radius: 0 40px 0 0;
+}
+.award{
+    border: thin solid red;
+    border-radius: 0 40px 0 0;
+}
+#number{
+    font-weight: 800;
+}
+
+.reach{
+    text-align: center;
+}
+.textexperience{
+    text-align: center;
+}
+
+.two{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+    justify-self: center;
+}
+.clients{
+    background-color: rgb(42,35,68);
+    /* display: flex;
+    justify-content: space-between; */
+}
+.clientsbox{
+    display:flex ;
+    justify-content: space-between;
+}
+.works{
+    display: flex;
+    justify-content: space-evenly;
+}
+.work{
+    display: flex;
+    justify-content: space-evenly;
+}
+.exp{
+    display: flex;
+}
+.contact{
+    background-color: rgb(25,20,42);
+    display: flex;
+}
+.hi{
+    background-color: rgb(42,35,68);
+}
+.two{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(./pictures/cnn.JPG);
+}
+@media screen and (max-width: 720px){
+
+    .phone{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    body{
+        padding: -100%;
+        margin: -100%;
+    }
+    .clientsbox{
+        display: inline-block;
+    }
+    .contact{
+        display: inline-block;
+    }
+    .works{
+        display: inline-block;
+    }
+    .myimage{
+        display: none;
+        
+    }
+    
+    
+} 
+@media screen and (min-width: 300px) {
+    .cv{
+        display: none;
+    }
+    
+}
+
